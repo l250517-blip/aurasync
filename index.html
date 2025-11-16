@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuraSync - Smartwatch</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container">
+            <a href="#" class="logo">AuraSync</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#specs">Specs</a></li>
+                    <li><a href="#preorder">Pre-Order</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="site-main">
+
+        <section class="hero">
+            <div class="container">
+                <h1>The Future on Your Wrist.</h1>
+                <p>Meet AuraSync, the new smartwatch that helps you stay healthy and connected.</p>
+                <a href="#preorder" class="cta-button">Pre-Order Now</a>
+            </div>
+            </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <h2>Our Top Features</h2>
+                
+                <div class="tabs-container">
+                    <input type="radio" name="tabs" id="tab1" checked>
+                    <label for="tab1" class="tab-label">Fitness</label>
+                    <div class="tab-content">
+                        <h3>Fitness Tracking</h3>
+                        <p>Track your steps, runs, and workouts. See your progress every day.</p>
+                    </div>
+                    
+                    <input type="radio" name="tabs" id="tab2">
+                    <label for="tab2" class="tab-label">Sleep</label>
+                    <div class="tab-content">
+                        <h3>Sleep Monitoring</h3>
+                        <p>Understand your sleep patterns to wake up refreshed.</p>
+                    </div>
+                    
+                    <input type="radio" name="tabs" id="tab3">
+                    <label for="tab3" class="tab-label">Connect</label>
+                    <div class="tab-content">
+                        <h3>Stay Connected</h3>
+                        <p>Get calls, texts, and notifications on your wrist.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="preorder" class="form-section">
+            <div class="container">
+                <h2>Pre-Order Your AuraSync</h2>
+
+                <form class="smart-form" action="#" method="post">
+                    
+                    <fieldset>
+                        <legend>1. Your Details</legend>
+                        <div class="form-group">
+                            <label for="name">Full Name:</label>
+                            <input type="text" id="name" name="user_name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="user_email" required>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>2. Choose Your Model</legend>
+                        <div class="form-group">
+                            <input type="radio" id="model-pro" name="model" value="pro" checked>
+                            <label for="model-pro" class="radio-label">AuraSync Pro</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="radio" id="model-lite" name="model" value="lite">
+                            <label for="model-lite" class="radio-label">AuraSync Lite</label>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>3. Select Your Color</legend>
+                        <div class="form-group">
+                            <label for="color-select">Case Color:</label>
+                            <select id="color-select" name="color">
+                                <option value="">--Please choose--</option>
+                                <option value="black">Midnight Black</option>
+                                <option value="silver">Starlight Silver</option>
+                                <option value="blue">Ocean Blue</option>
+                            </select>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>4. What features interest you?</legend>
+                        <div class="form-group">
+                            <input type="checkbox" id="interest-fitness" name="interests" value="fitness">
+                            <label for="interest-fitness" class="check-label">Fitness Tracking</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox" id="interest-sleep" name="interests" value="sleep">
+                            <label for="interest-sleep" class="check-label">Sleep Monitoring</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox" id="interest-nfc" name="interests" value="nfc">
+                            <label for="interest-nfc" class="check-label">NFC Payments</label>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>5. Any questions?</legend>
+                        <div class="form-group">
+                            <label for="questions">Your Message (Optional):</label>
+                            <textarea id="questions" name="user_questions" rows="4"></textarea>
+                        </div>
+                    </fieldset>
+                    
+                    <button type="submit" class="cta-button">Place My Pre-Order</button>
+
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 AuraSync. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
